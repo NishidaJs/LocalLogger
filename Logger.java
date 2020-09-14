@@ -51,7 +51,8 @@ public class Logger {
         }catch (IOException e) {
             e.printStackTrace();
         }
-        return counter;}
+        return counter;
+    }
 
     private static class LogMessageData {
     
